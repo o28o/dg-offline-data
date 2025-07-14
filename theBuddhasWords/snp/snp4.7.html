@@ -127,7 +127,7 @@
 	<h3>4:7 Tissa Metteyya</h3>	
 	<div id="metarea"> <!-- metarea div -->
 		<ul class="translator"><!-- Translator div -->
-			<li>©&nbsp;Translated from the Pali by Bhikkhu Bodhi</li>
+			<li><a class="dg-link" href="/r/?q=snp4.7">DG</a> <a href="https://suttacentral.net/snp4.7">SC</a> <a href="https://thebuddhaswords.net/./snp/snp4.7.html">TBW</a> ©&nbsp;Translated from the Pali by Bhikkhu Bodhi</li>
 		</ul>
 	</div><!-- End metarea div -->
 
@@ -324,5 +324,6 @@ Rittassa munino carato,<br> Kāmesu anapekkhino;
  </script>
  <script src="../js/footer.js"></script><script src="../js/dpd_deconstructor.js"></script><script src="../js/dpd_ebts.js"></script><script src="../js/dpd_i2h.js"></script>
  <script src="/sw.js"></script>
+<script>document.addEventListener("click",e=>{if(e.target.closest("a.dg-link")){e.preventDefault();const s=new URLSearchParams(window.location.search).get("s");window.location.href=e.target.closest("a").href+(s?`&s=${encodeURIComponent(s)}`:"");}})</script>
  </body>
  </html>
